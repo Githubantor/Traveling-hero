@@ -160,5 +160,91 @@ height: 540px;
     font-size: 15px;
     font-weight: 400;
 }
+.card-dad{
+    display: flex;
+     gap: 19px;
+     justify-content: center;
+}
+.card1{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+    height: 284px;
+    width: 573px;
+}
+.card2{
+    height: 284px;
+    width: 573px;
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.card-dad2{
+    width: 573px;
+    height: 284px;
+    margin-left: 433px;
+    margin-right: 434px;
+    margin-top: 20px;
+}
+.card3{
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+.fourth-part{
+    display: flex;
+}
+.full{
+    display: flex;
+    gap: 23px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.form-1{
+    height: 422px;
+    width: 422px;
+    border: 2px solid #FF5400;
+    border-radius: 9px;
+    gap: 24px;
+    align-items: center;
+
+}
+.next-btn{
+    background-color: #FF5400;
+    color: white;
+    width: 350px;
+    height: 35px; 
+    border: 3px solid #FF5400;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 34px;
+
+}
+.Email{
+    height: 42px;
+    width: 350px;
+     border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 2px solid rgba(19, 19, 24, 0.05);
+    margin-left: 25px;
+    margin-top: 24px;
+
+}
+.Name{
+    height: 42px;
+    width: 350px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 3px solid rgba(19, 19, 24, 0.05);
+    margin-left: 25px;
+    margin-top: 48px;
+}
+.photo{
+ height: 422px;
+ width: 672px;
+}
+.newlet{
+    margin-left: 25px;
+}
 
 
