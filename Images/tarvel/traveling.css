@@ -1,3 +1,6 @@
+body{
+    width: 1400px;
+}
 .header-section{
     max-width: 1200px;
     /* background-color: red; */
@@ -98,9 +101,64 @@ margin: 0 auto;
 }
 .second-content{
     width: 1440px;
-height: 6940px;
+height: 540px;
 }
 .img-section{
     height: 550px;
     width: 540px;
 }
+.body-part2{
+    text-align: center;
+    padding-top:  90px; 
+    gap: 24px;
+}
+.center-text h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+.honeymoon{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 5px;
+    margin-left: 135px;
+    margin-right: 135px;
+}
+.same{
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+.jungle{
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 135px;
+    margin-right: 135px;
+    gap: 24px;
+}
+.sec6{
+    height: 286px;
+    width: 374px;
+    border-radius: 16px;
+}
+.sec7{
+    height: 276px;
+    width: 474px;
+    border-radius: 16px;
+}
+.why-choose{
+    align-items: center;
+}
+.how-choose{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.how-choose-us{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
