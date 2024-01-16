@@ -1,0 +1,90 @@
+.header-section{
+    max-width: 1200px;
+    /* background-color: red; */
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    /* border: 2px solid blue; */
+
+}
+.nav-container{
+    /* border: 2px solid red; */
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    min-height: 20px;
+    width: 50%;
+}
+.text-container{
+    font-size: 20px;
+    font-weight: 700;
+}
+.co-text{
+    color: #FF5400;
+}
+.item-container{
+    /* border: 2px solid yellow; */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-container a{
+    text-decoration: none;
+}
+.fc{
+    color: #FF5400;
+}
+.bannar-section{
+    background-image: url('../water.png');
+    height: 500px;
+    width: 1170px;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+.bannar-section h1{
+    font-size: 64px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+.bannar-section p{
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+.row-layout{
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+width: 50%;
+margin: 0 auto;
+}
+.where-to-go{
+    display: flex;
+    gap: 24px;
+}
+.main-btn{
+    background-color: #fff;
+    width: 154px;
+    height: 35px;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: lightgray;
+}
+.select{
+    background-color: #fff;
+    width: 154px;
+    height: 35px;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: lightgray;
+}
+.primary-btn{
+    background-color: #FF5400;
+    color: white;
+    width: 154px;
+    height: 35px; 
+    border: 3px solid #FF5400;
+    border-radius: 7px;
+}
