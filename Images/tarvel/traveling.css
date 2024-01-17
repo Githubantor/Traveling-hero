@@ -171,6 +171,8 @@ border: 1px solid rgba(251, 181, 99, 0.20);
 background: rgba(251, 181, 99, 0.05);
     height: 284px;
     width: 573px;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 .card2{
     height: 284px;
@@ -178,6 +180,8 @@ background: rgba(251, 181, 99, 0.05);
     border-radius: 16px;
 border: 1px solid rgba(41, 206, 246, 0.20);
 background: rgba(41, 206, 246, 0.05);
+padding-left: 30px;
+    padding-top: 30px;
 }
 .card-dad2{
     width: 573px;
@@ -190,6 +194,8 @@ background: rgba(41, 206, 246, 0.05);
     border-radius: 16px;
 border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
+padding-left: 30px;
+    padding-top: 30px;
 }
 .fourth-part{
     display: flex;
@@ -249,7 +255,6 @@ background: rgba(233, 68, 68, 0.05);
 footer{
     height: 450px;
     width: 1100px;
-    border: 2px solid blue;
     margin-left: 150px;
     margin-top: 70px;
     background: rgba(19, 19, 24, 0.05);
@@ -281,3 +286,11 @@ footer{
     margin-top: 110px;
     text-align: center;
 }
+.line2{
+    width: 332px;
+}
+@media screen and (max-width:576px) {
+    body{
+        flex-direction: column;
+    }
+    }
